@@ -1,0 +1,46 @@
+@font-face {
+  font-family: cactus;
+  src: url(./assets/font/Cactus\ Regular.otf);
+}
+
+.button {
+  background-color: #A24E2A;
+  font-family: cactus;
+}
+
+.button:hover {
+  background-color: #c96a41;
+}
+
+.button:active {
+  background-color: #492313 !important;
+}
+
+ul {
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.nav-link {
+  color: #2F3B2D !important;
+}
+
+.nav-link:hover {
+  color: #596657 !important;
+}
+
+header{
+  background-color: #f2dcbd !important;
+  
+}
+
+h1 {
+  font-family: cactus !important;
+  color: #612f19 !important;
+}
+
+p {
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
