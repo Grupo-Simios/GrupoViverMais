@@ -34,12 +34,11 @@ header{
   
 }
 
-h1 {
+.h1-header {
   font-family: cactus !important;
   color: #612f19 !important;
 }
-p {
-}
+
 .p-home {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
@@ -72,4 +71,16 @@ p {
 }
 .col-7{
   gap: 70px;
+}
+
+.h1-quem {
+  font-family: cactus !important;
+  color:#2F3B2D;
+  font-size: 50px;
+}
+
+.p-quem {
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 15px;
 }
