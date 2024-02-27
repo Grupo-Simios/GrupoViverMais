@@ -57,7 +57,7 @@ header{
   font-family: cactus !important;
   font-size: 70px !important;
   padding-left: 100px;
-  color: #000;
+  color: #10140F;
 
 }
 .text-proposito{
@@ -65,8 +65,17 @@ header{
   font-size: 30px !important;
   color: #4d250e;
 }
-.p-proposito{
+.a-proposito{
+  font-family:  "Arsenal", sans-serif !important;
+  font-weight: 400 !important;
   font-size: 16px;
+  color: #10140F;
+  cursor: pointer;
+
+}
+.a-proposito:hover{
+  color: #21291f;
+  cursor: pointer;
 
 }
 .col-7{
@@ -83,4 +92,14 @@ header{
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
   font-size: 15px;
+}
+.modal-title{
+  font-family: cactus !important;
+  font-size: 30px !important;
+  color: #4d250e;
+}
+.modal-body{
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+  color: #2E3A2C !important;
 }
