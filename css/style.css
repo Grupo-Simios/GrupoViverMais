@@ -29,9 +29,8 @@ ul {
   color: #596657 !important;
 }
 
-header{
+header {
   background-color: #f2dcbd !important;
-  
 }
 
 .h1-header {
@@ -44,47 +43,50 @@ header{
   font-weight: 700 !important;
   color: #000 !important;
 }
-.proposito{
-  background-color: #d86b29;
-}
-.missao, .visao, .valores{
+
+.missao, .visao, .valores {
   background-color: #f2dcbd;
   width: 211px;
   height: 246px;
-  
 }
-.text-conheca{
+
+.proposito {
+  background-color: #d86b29;
+}
+
+.text-conheca {
   font-family: cactus !important;
   font-size: 70px !important;
   padding-left: 100px;
   color: #10140F;
-
 }
-.text-proposito{
+
+.text-proposito {
   font-family: cactus !important;
   font-size: 30px !important;
   color: #4d250e;
 }
-.a-proposito{
-  font-family:  "Arsenal", sans-serif !important;
+
+.a-proposito {
+  font-family: "Arsenal", sans-serif !important;
   font-weight: 400 !important;
   font-size: 16px;
   color: #10140F;
   cursor: pointer;
-
 }
-.a-proposito:hover{
+
+.a-proposito:hover {
   color: #21291f;
   cursor: pointer;
-
 }
-.col-7{
+
+.col-7 {
   gap: 70px;
 }
 
 .h1-quem {
   font-family: cactus !important;
-  color:#2F3B2D;
+  color: #2F3B2D;
   font-size: 50px;
 }
 
@@ -93,21 +95,23 @@ header{
   font-weight: 700 !important;
   font-size: 15px;
 }
-.modal-title{
+
+.modal-title {
   font-family: cactus !important;
   font-size: 30px !important;
   color: #4d250e;
 }
-.modal-body{
+
+.modal-body {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
   color: #2E3A2C !important;
 }
 
 .navbar-toggler {
-  background-color: #A24E2A; 
+  background-color: #A24E2A;
 }
 
 .navbar-toggler:focus {
-  box-shadow: none; 
+  box-shadow: none;
 }
