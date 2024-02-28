@@ -103,3 +103,11 @@ header{
   font-weight: 700 !important;
   color: #2E3A2C !important;
 }
+
+.navbar-toggler {
+  background-color: #A24E2A; 
+}
+
+.navbar-toggler:focus {
+  box-shadow: none; 
+}
