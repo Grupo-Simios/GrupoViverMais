@@ -10,6 +10,13 @@
   .p-home {
     font-size: 25px;
   }
+  .about {
+    flex-direction: column;
+  }
+  .h1-quem {
+    font-size: 80px;
+  }
+
 }
 
 /* tablet */
