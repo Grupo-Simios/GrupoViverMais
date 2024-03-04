@@ -1,5 +1,32 @@
+/* mobile */
+@media screen and (max-width: 576px) {
+  .h1-header {
+    font-size: 70px;
+    line-height: 1.0;
+  }
+  .h1-span {
+    display: flex;
+  }
+  .p-home {
+    font-size: 25px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .h1-quem {
+    font-size: 80px;
+  }
+
+}
+
+/* tablet */
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
   }
+}
+
+/* laptop */
+@media screen and (max-width: 992px) {
+
 }
