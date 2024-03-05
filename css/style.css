@@ -128,3 +128,12 @@ header {
 .atividades {
   background-color: #F2DCBD;
 }
+
+.h1-nossa-equipe {
+  font-family: cactus;
+  color: #2E3A2C;
+}
+
+.card-equipe {
+  background-color: #2E3A2C;
+}
