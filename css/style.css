@@ -113,3 +113,27 @@ header {
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
+.h3-atividades {
+  font-family: cactus;
+  color: #612F19;
+}
+
+.p-atividades {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  color: #10140F;
+}
+
+.atividades {
+  background-color: #F2DCBD;
+}
+
+.h1-nossa-equipe {
+  font-family: cactus;
+  color: #2E3A2C;
+}
+
+.card-equipe {
+  background-color: #2E3A2C;
+}
