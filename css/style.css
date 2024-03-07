@@ -158,12 +158,13 @@ header {
 .h1-apoia{
   font-family: cactus;
   color: #391B0F;
-  font-size: 50px;
+  font-size: 60px;
 }
 .h2-apoia{
-  font-size: 40px;
+  font-size: 45px;
   font-family: cactus;
   color: #000;
+  margin-bottom: -2px;
 }
 .p-apoia{
   font-family: "Arsenal", sans-serif !important;
@@ -175,4 +176,8 @@ header {
 .text-apoia{
   padding-left: 140px;
   padding-top: 30px;
+}
+.qr-code{
+  width: 126px;
+  height: 126px;
 }
