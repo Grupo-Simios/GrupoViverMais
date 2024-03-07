@@ -152,3 +152,27 @@ header {
   font-weight: 400;
   color: #10140F;
 }
+.apoia{
+  background-color: #DB6B29;
+}
+.h1-apoia{
+  font-family: cactus;
+  color: #391B0F;
+  font-size: 50px;
+}
+.h2-apoia{
+  font-size: 40px;
+  font-family: cactus;
+  color: #000;
+}
+.p-apoia{
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 16px;
+  color: #000;
+  max-width: 480px;
+}
+.text-apoia{
+  padding-left: 140px;
+  padding-top: 30px;
+}
