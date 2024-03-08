@@ -183,16 +183,14 @@ header {
   padding: 0 10%;
 }
 
-.rodape-marca {
-  width: 100px;
-}
-
 .rodape-main-text {
+  font-family: cactus;
   color: #8E6422;
 }
 
 .rodape-text {
   font-family: cactus;
+  color: #554D42;
 }
 
 .rodape-p {
