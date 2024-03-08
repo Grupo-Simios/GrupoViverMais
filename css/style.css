@@ -176,3 +176,31 @@ header {
   padding-left: 140px;
   padding-top: 30px;
 }
+
+.rodape {
+  background-color: #f2dcbd;
+  box-shadow: 0 0 20px #888888;
+  padding: 0 10%;
+}
+
+.rodape-marca {
+  width: 100px;
+}
+
+.rodape-main-text {
+  color: #8E6422;
+}
+
+.rodape-text {
+  font-family: cactus;
+}
+
+.rodape-p {
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+  color: #554D42;
+}
+
+hr {
+  color: #BE5C1F;
+}
