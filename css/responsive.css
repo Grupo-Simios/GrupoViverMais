@@ -1,5 +1,5 @@
-/* mobile */
-@media screen and (max-width: 576px) {
+/* sm */
+@media screen and (max-width: 575px) {
   .h1-header {
     font-size: 70px;
     line-height: 1.0;
@@ -16,17 +16,41 @@
   .h1-quem {
     font-size: 80px;
   }
-
-}
-
-/* tablet */
-@media screen and (max-width: 768px) {
-  .header {
-    flex-direction: column;
+  .carrossel {
+    width: 575px;
+  }
+  .text-atividades {
+    width: 575px;
+    padding: 0 20px 0 30px !important;
+  }
+  .title-atividades {
+    font-size: 55px;
+  }
+  .p-atividades {
+    font-size: 20px;
   }
 }
 
-/* laptop */
-@media screen and (max-width: 992px) {
+/* md */
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+  .text-atividades {
+    padding: 0 15px 0 25px !important;
+  }
+}
 
+/* lg */
+@media screen and (max-width: 991px) {
+  .text-atividades {
+    padding: 0 15px 0 30px !important;
+  }
+}
+
+/* xl */
+@media screen and (max-width: 1199px) {
+  .text-atividades {
+    padding: 0 25px 0 50px !important;
+  }
 }
