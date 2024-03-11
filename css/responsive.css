@@ -29,6 +29,9 @@
   .p-atividades {
     font-size: 20px;
   }
+  .p-apoia {
+    font-size: 1.25rem;
+  }
 }
 
 /* md */
@@ -38,6 +41,10 @@
   }
   .text-atividades {
     padding: 0 15px 0 25px !important;
+  }
+  .missao, .visao, .valores {
+    width: auto;
+    height: auto;
   }
 }
 
