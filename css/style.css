@@ -1,10 +1,20 @@
+:root {
+  --black: #000000;
+  --brown: #4d250e;
+  --chestnut: #A24E2A;
+  --chocolate: #d86b29;
+  --dutch-white: #f2dcbd;
+  --olive-drab-camouflage: #554d42;
+  --green: #2e3a2c;
+}
+
 @font-face {
   font-family: cactus;
   src: url(../font/Cactus\ Regular.otf);
 }
 
 .button {
-  background-color: #A24E2A;
+  background-color: var(--chestnut);
   font-family: cactus;
 }
 
@@ -13,7 +23,7 @@
 }
 
 .button:active {
-  background-color: #492313 !important;
+  background-color: var(--brown) !important;
 }
 
 ul {
@@ -22,7 +32,7 @@ ul {
 }
 
 .nav-link {
-  color: #2F3B2D !important;
+  color: var(--green) !important;
 }
 
 .nav-link:hover {
@@ -30,46 +40,48 @@ ul {
 }
 
 header {
-  background-color: #f2dcbd !important;
+  background-color: var(--dutch-white) !important;
 }
 
 .h1-header {
   font-family: cactus !important;
-  color: #612f19 !important;
+  color: var(--brown) !important;
 }
 
 .p-home {
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
-  color: #000;
+  color: var(--black);
 }
 
-.missao, .visao, .valores {
-  background-color: #f2dcbd;
+.missao,
+.visao,
+.valores {
+  background-color: var(--dutch-white);
   width: 211px;
   height: 246px;
 }
 
 .proposito {
-  background-color: #d86b29;
+  background-color: var(--chocolate);
 }
 
 .text-conheca {
   font-family: cactus !important;
-  color: #10140F;
+  color: var(--black);
 }
 
 .text-proposito {
   font-family: cactus !important;
   font-size: 30px !important;
-  color: #4d250e;
+  color: var(--brown);
 }
 
 .a-proposito {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 400 !important;
   font-size: 16px;
-  color: #10140F;
+  color: var(--black);
   cursor: pointer;
 }
 
@@ -84,7 +96,7 @@ header {
 
 .h1-quem {
   font-family: cactus !important;
-  color: #2F3B2D;
+  color: var(--green);
   font-size: 50px;
 }
 
@@ -97,17 +109,17 @@ header {
 .modal-title {
   font-family: cactus !important;
   font-size: 30px !important;
-  color: #4d250e;
+  color: var(--brown);
 }
 
 .modal-body {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: #2E3A2C !important;
+  color: var(--green) !important;
 }
 
 .navbar-toggler {
-  background-color: #A24E2A;
+  background-color: var(--chestnut);
 }
 
 .navbar-toggler:focus {
@@ -117,20 +129,20 @@ header {
 .p-atividades {
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
-  color: #10140F;
+  color: var(--black);
 }
 
 .atividades {
-  background-color: #F2DCBD;
+  background-color: var(--dutch-white);
 }
 
 .title-green {
   font-family: cactus;
-  color: #2E3A2C;
+  color: var(--green);
 }
 
 .card-equipe {
-  background-color: #2E3A2C;
+  background-color: var(--green);
 }
 
 .card-projetos {
@@ -139,7 +151,7 @@ header {
 
 .title-brown {
   font-family: cactus;
-  color: #7A3B20;
+  color: var(--brown);
 }
 
 .title-card-projetos {
@@ -150,35 +162,40 @@ header {
 .p-card-projetos {
   font-family: "Arsenal", sans-serif;
   font-weight: 400;
-  color: #10140F;
+  color: var(--black);
 }
-.apoia{
-  background-color: #DB6B29;
+
+.apoia {
+  background-color: var(--chocolate);
 }
-.h1-apoia{
+
+.h1-apoia {
   font-family: cactus;
   color: #391B0F;
   font-size: 50px;
 }
-.h2-apoia{
+
+.h2-apoia {
   font-size: 40px;
   font-family: cactus;
-  color: #10140F;
+  color: var(--black);
 }
-.p-apoia{
+
+.p-apoia {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
   font-size: 16px;
-  color: #000;
+  color: var(--black);
   max-width: 480px;
 }
-.text-apoia{
+
+.text-apoia {
   padding-left: 10%;
   padding-top: 30px;
 }
 
 .rodape {
-  background-color: #f2dcbd;
+  background-color: var(--dutch-white);
   box-shadow: 0 0 20px #888888;
   padding: 0 10%;
 }
@@ -190,15 +207,15 @@ header {
 
 .rodape-text {
   font-family: cactus;
-  color: #554D42;
+  color: var(--olive-drab-camouflage);
 }
 
 .rodape-p {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: #554D42;
+  color: var(--olive-drab-camouflage);
 }
 
 hr {
-  color: #BE5C1F;
+  color: var(--chestnut);
 }
