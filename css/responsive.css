@@ -32,6 +32,19 @@
   .text-conheca {
     font-size: 2.50rem;
   }
+  .col-projetos {
+    width: 575px;
+    padding: 30px;
+  }
+  .h-projetos {
+    font-size: 70px;
+  }
+  .p-projetos {
+    font-size: 20px;
+  }
+  .img-projetos{
+    width: 250px;
+  }
 }
 
 /* md */
