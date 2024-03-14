@@ -4,9 +4,6 @@
     font-size: 70px;
     line-height: 1.0;
   }
-  .h1-span {
-    display: flex;
-  }
   .p-home {
     font-size: 25px;
   }
@@ -39,9 +36,6 @@
 
 /* md */
 @media screen and (max-width: 767px) {
-  .header {
-    flex-direction: column;
-  }
   .text-atividades {
     padding: 0 15px 0 25px !important;
   }
