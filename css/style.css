@@ -230,3 +230,18 @@ hr {
   font-weight: 700 !important;
   color: var(--brown);
 }
+
+.title-equipe {
+  font-family: cactus;
+  color: var(--green);
+}
+
+.p-equipe {
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--green);
+}
+
+.equipe-simios {
+  background-color: #EBCCBA;
+}
