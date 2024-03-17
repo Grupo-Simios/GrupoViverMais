@@ -186,11 +186,9 @@ header {
   font-weight: 700 !important;
   font-size: 16px;
   color: var(--black);
-  max-width: 480px;
 }
 
 .text-apoia {
-  padding-left: 10%;
   padding-top: 30px;
 }
 
