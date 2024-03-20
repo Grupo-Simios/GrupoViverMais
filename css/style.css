@@ -1,6 +1,8 @@
 :root {
   --black: #000000;
   --brown: #4d250e;
+  --dark-brown: #43200B;
+  --light-brown: #612F19;
   --chestnut: #A24E2A;
   --chocolate: #d86b29;
   --dutch-white: #f2dcbd;
@@ -218,9 +220,31 @@ hr {
   color: var(--chestnut);
 }
 
+.header-grupo{
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.h-grupo{
+  font-family: cactus;
+  color: var(--light-brown);
+  max-width: 650px;
+  font-size: 47px;
+}
+
+.p-grupo{
+  font-family: "Arsenal", sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--black);
+  max-width: 480px;
+}
+.img-grupo{
+  width: 291.73px !important;
+  height: 291.73px !important;
+}
+
 .h-projetos {
   font-family: cactus;
-  color: var(--brown);
+  color: var(--dark-brown);
 }
 
 .p-projetos {
@@ -228,6 +252,7 @@ hr {
   font-weight: 700 !important;
   color: var(--brown);
 }
+
 
 .title-equipe {
   font-family: cactus;
