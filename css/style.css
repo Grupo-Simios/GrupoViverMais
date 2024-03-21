@@ -145,7 +145,11 @@ header {
 }
 .card-equipe2{
   background-color: #A4501F;
-  max-height: 450px;
+  max-height: 500px;
+}
+.card-text {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
 }
 
 .title-brown {
@@ -153,10 +157,8 @@ header {
   color: var(--brown);
 }
 
-.title-card-projetos {
+.card-title {
   font-family: cactus;
-  color: #ffffff;
-  font-size: 40px;
   max-width: 160px;
   
 }
