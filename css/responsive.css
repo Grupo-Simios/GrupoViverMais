@@ -77,7 +77,7 @@
   .rodape-text {
     font-size: 2rem !important;
   }
-  .rodape-p {
+  .rodape-p, .rodape-a {
     font-size: 1.25rem !important;
   }
 }
