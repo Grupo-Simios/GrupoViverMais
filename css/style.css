@@ -145,6 +145,11 @@ header {
 
 .card-equipe {
   background-color: var(--green);
+  max-height: 500px;
+}
+.card-equipe2{
+  background-color: #A4501F;
+  max-height: 450px;
 }
 
 .card-projetos {
@@ -158,13 +163,17 @@ header {
 
 .title-card-projetos {
   font-family: cactus;
-  color: #232C21;
+  color: #ffffff;
+  font-size: 40px;
+  max-width: 160px;
+  
 }
 
 .p-card-projetos {
   font-family: "Arsenal", sans-serif;
   font-weight: 400;
-  color: var(--black);
+  color: white;
+  max-width: 160px;
 }
 
 .apoia {
@@ -221,25 +230,29 @@ hr {
 }
 
 .header-grupo{
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  height: 547px;
 }
 .h-grupo{
   font-family: cactus;
   color: var(--light-brown);
-  max-width: 650px;
-  font-size: 47px;
+  max-width: 750px;
+  font-size: 60px;
 }
 
 .p-grupo{
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
   color: var(--black);
-  max-width: 480px;
+  max-width: 550px;
+  font-size: 18px;
 }
 .img-grupo{
   width: 291.73px !important;
   height: 291.73px !important;
+}
+
+.projetos{
+  height: 500px;
 }
 
 .h-projetos {
@@ -251,6 +264,8 @@ hr {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
   color: var(--brown);
+  max-width: 580px;
+  font-size: 18px;
 }
 
 
@@ -262,7 +277,9 @@ hr {
 .p-equipe {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: var(--green);
+  color: var(--black);
+  font-size: 17px;
+  max-width: 400px;
 }
 
 .equipe-simios {
