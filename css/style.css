@@ -152,9 +152,7 @@ header {
   max-height: 450px;
 }
 
-.card-projetos {
-  background-color: #EDA738;
-}
+
 
 .title-brown {
   font-family: cactus;
@@ -183,7 +181,7 @@ header {
 .h1-apoia {
   font-family: cactus;
   color: #391B0F;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .h2-apoia {
