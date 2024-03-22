@@ -8,6 +8,8 @@
   --dutch-white: #f2dcbd;
   --olive-drab-camouflage: #554d42;
   --green: #2e3a2c;
+  --dark-footer: #DAC6AA;
+  --text-dark-footer: #918471;
 }
 
 @font-face {
@@ -208,8 +210,18 @@ header {
   color: var(--olive-drab-camouflage);
 }
 
-hr {
-  color: var(--chestnut);
+.rodape__grupo-simios{
+  background-color: var(--dark-footer);
+}
+
+.rodape__links-simios {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  color: var(--text-dark-footer);
+}
+
+.border-top {
+  --bs-border-color: var(--chocolate);
 }
 
 .header-grupo{
