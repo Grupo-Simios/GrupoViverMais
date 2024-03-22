@@ -75,14 +75,12 @@ header {
 
 .text-proposito {
   font-family: cactus !important;
-  font-size: 30px !important;
   color: var(--brown);
 }
 
 .a-proposito {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 400 !important;
-  font-size: 16px;
   color: var(--black);
   cursor: pointer;
 }
@@ -105,7 +103,6 @@ header {
 .p-quem {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  font-size: 15px;
 }
 
 .modal-title {
@@ -131,7 +128,6 @@ header {
 .p-atividades {
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
-  color: var(--black);
 }
 
 .atividades {
@@ -149,29 +145,22 @@ header {
 }
 .card-equipe2{
   background-color: #A4501F;
-  max-height: 450px;
+  max-height: 500px;
 }
-
-
+.card-text {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+}
 
 .title-brown {
   font-family: cactus;
   color: var(--brown);
 }
 
-.title-card-projetos {
+.card-title {
   font-family: cactus;
-  color: #ffffff;
-  font-size: 40px;
   max-width: 160px;
   
-}
-
-.p-card-projetos {
-  font-family: "Arsenal", sans-serif;
-  font-weight: 400;
-  color: white;
-  max-width: 160px;
 }
 
 .apoia {
@@ -181,11 +170,9 @@ header {
 .h1-apoia {
   font-family: cactus;
   color: #391B0F;
-  font-size: 60px;
 }
 
 .h2-apoia {
-  font-size: 40px;
   font-family: cactus;
   color: var(--black);
 }
@@ -193,8 +180,6 @@ header {
 .p-apoia {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  font-size: 16px;
-  color: var(--black);
 }
 
 .text-apoia {
@@ -217,7 +202,7 @@ header {
   color: var(--olive-drab-camouflage);
 }
 
-.rodape-p {
+.rodape-p, .rodape-a {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
   color: var(--olive-drab-camouflage);
