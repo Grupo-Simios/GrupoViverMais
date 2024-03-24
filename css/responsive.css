@@ -24,7 +24,6 @@
   }
   .text-atividades {
     width: 575px;
-    padding: 0 20px 0 30px !important;
   }
   .title-atividades {
     font-size: 4rem;
@@ -46,9 +45,6 @@
   }
   .text-proposito {
     font-size: 3.25rem !important;
-  }
-  .col-projetos {
-    width: 575px;
   }
   .a-proposito {
     font-size: 1.50rem !important;
@@ -84,9 +80,6 @@
 
 /* md */
 @media screen and (max-width: 767px) {
-  .text-atividades {
-    padding: 0 15px 0 25px !important;
-  }
   .missao, .visao, .valores {
     width: auto;
     height: auto;
@@ -95,14 +88,8 @@
 
 /* lg */
 @media screen and (max-width: 991px) {
-  .text-atividades {
-    padding: 0 15px 0 30px !important;
-  }
 }
 
 /* xl */
 @media screen and (max-width: 1199px) {
-  .text-atividades {
-    padding: 0 25px 0 50px !important;
-  }
 }

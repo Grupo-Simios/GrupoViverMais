@@ -143,11 +143,9 @@ header {
 
 .card-equipe {
   background-color: var(--green);
-  max-height: 500px;
 }
 .card-equipe2{
   background-color: #A4501F;
-  max-height: 500px;
 }
 .card-text {
   font-family: "Arsenal", sans-serif;
@@ -161,8 +159,6 @@ header {
 
 .card-title {
   font-family: cactus;
-  max-width: 160px;
-  
 }
 
 .apoia {
