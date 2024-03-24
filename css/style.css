@@ -18,7 +18,7 @@
 }
 
 .button {
-  background-color: var(--chestnut);
+  background-color: #A24E2A;
   font-family: cactus;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .button:active {
-  background-color: var(--brown) !important;
+  background-color: #4d250e !important;
 }
 
 ul {
@@ -36,7 +36,7 @@ ul {
 }
 
 .nav-link {
-  color: var(--green) !important;
+  color: #2E3A2C !important;
 }
 
 .nav-link:hover {
@@ -44,51 +44,51 @@ ul {
 }
 
 header {
-  background-color: var(--dutch-white) !important;
+  background-color: #F2DCBD !important;
 }
 
 .h1-header {
   font-family: cactus !important;
-  color: var(--brown) !important;
+  color: #612F19 !important;
 }
 
 .p-home {
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
-  color: var(--black);
+  color: #000;
 }
 
 .missao,
 .visao,
 .valores {
-  background-color: var(--dutch-white);
+  background-color: #F2DCBD;
   width: 211px;
   height: 246px;
 }
 
 .proposito {
-  background-color: var(--chocolate);
+  background-color: #DB6B29;
 }
 
 .text-conheca {
   font-family: cactus !important;
-  color: var(--black);
+  color: #10140F;
 }
 
 .text-proposito {
   font-family: cactus !important;
-  color: var(--brown);
+  color: #4D250E;
 }
 
 .a-proposito {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 400 !important;
-  color: var(--black);
+  color: #10140F;
   cursor: pointer;
 }
 
 .a-proposito:hover {
-  color: #21291f;
+  color: #54694f;
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ header {
 
 .h1-quem {
   font-family: cactus !important;
-  color: var(--green);
+  color: #2E3A2C;
   font-size: 50px;
 }
 
@@ -109,18 +109,17 @@ header {
 
 .modal-title {
   font-family: cactus !important;
-  font-size: 30px !important;
-  color: var(--brown);
+  color: #43200B;
 }
 
 .modal-body {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: var(--green) !important;
+  color: #2E3A2C !important;
 }
 
 .navbar-toggler {
-  background-color: var(--chestnut);
+  background-color: #A24E2A;
 }
 
 .navbar-toggler:focus {
@@ -133,16 +132,16 @@ header {
 }
 
 .atividades {
-  background-color: var(--dutch-white);
+  background-color: #F2DCBD;
 }
 
-.title-green {
+.h2-quem {
   font-family: cactus;
   color: var(--green);
 }
 
 .card-equipe {
-  background-color: var(--green);
+  background-color: #2E3A2C;
 }
 .card-equipe2{
   background-color: #A4501F;
@@ -152,9 +151,9 @@ header {
   font-weight: 400;
 }
 
-.title-brown {
+.h2-atividades {
   font-family: cactus;
-  color: var(--brown);
+  color: #612F19;
 }
 
 .card-title {
@@ -162,22 +161,18 @@ header {
 }
 
 .apoia {
-  background-color: var(--chocolate);
-}
-
-.h1-apoia {
-  font-family: cactus;
-  color: #391B0F;
+  background-color: #DB6B29;
 }
 
 .h2-apoia {
   font-family: cactus;
-  color: var(--black);
+  color: #10140F !important;
 }
 
 .p-apoia {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
+  color: #10140F !important;
 }
 
 .text-apoia {
@@ -185,7 +180,7 @@ header {
 }
 
 .rodape {
-  background-color: var(--dutch-white);
+  background-color: #F2DCBD;
   box-shadow: 0 0 20px #888888;
   padding: 0 10%;
 }
@@ -197,27 +192,27 @@ header {
 
 .rodape-text {
   font-family: cactus;
-  color: var(--olive-drab-camouflage);
+  color: #554D42;
 }
 
 .rodape-p, .rodape-a {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: var(--olive-drab-camouflage);
+  color: #554D42;
 }
 
 .rodape__grupo-simios{
-  background-color: var(--dark-footer);
+  background-color: #DAC6AA;
 }
 
 .rodape__links-simios {
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
-  color: var(--text-dark-footer);
+  color: #918471;
 }
 
 .border-top {
-  --bs-border-color: var(--chocolate);
+  --bs-border-color: #BE5C1F;
 }
 
 .header-grupo{
@@ -226,35 +221,35 @@ header {
 
 .h-grupo{
   font-family: cactus;
-  color: var(--light-brown);
+  color: #612F19;
 }
 
 .p-grupo{
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: var(--black);
+  color: #000;
 }
 
 .h-projetos {
   font-family: cactus;
-  color: var(--dark-brown);
+  color: #43200B;
 }
 
 .p-projetos {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: var(--brown);
+  color: #4D250E;
 }
 
 .title-equipe {
   font-family: cactus;
-  color: var(--green);
+  color: #2E3A2C;
 }
 
 .p-equipe {
   font-family: "Arsenal", sans-serif !important;
   font-weight: 700 !important;
-  color: var(--black);
+  color: #2E3A2C;
 }
 
 .equipe-simios {
