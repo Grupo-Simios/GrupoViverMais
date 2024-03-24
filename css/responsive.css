@@ -76,6 +76,21 @@
   .rodape-p, .rodape-a {
     font-size: 1.25rem !important;
   }
+  .h-grupo {
+    font-size: 4rem;
+    line-height: 1.0;
+  }
+  .p-grupo {
+    font-size: 1.50rem !important;
+  }
+  .card-title {
+    font-size: 2.50rem !important;
+    line-height: 0.8 !important;
+  }
+  .card-text {
+    font-size: 1.25rem;
+    line-height: 1.0;
+  }
 }
 
 /* md */
