@@ -16,7 +16,7 @@
   .about {
     flex-direction: column;
   }
-  .title-green {
+  .h2-quem {
     font-size: 4rem;
   }
   .carrossel {
@@ -25,14 +25,11 @@
   .text-atividades {
     width: 575px;
   }
-  .title-atividades {
+  .h2-atividades {
     font-size: 4rem;
   }
   .p-atividades {
     font-size: 1.50rem !important;
-  }
-  .h1-apoia {
-    font-size: 3.50rem;
   }
   .h2-apoia {
     font-size: 3.50rem;
@@ -74,6 +71,27 @@
     font-size: 2rem !important;
   }
   .rodape-p, .rodape-a {
+    font-size: 1.25rem !important;
+  }
+  .h-grupo {
+    font-size: 4rem;
+    line-height: 1.0;
+  }
+  .p-grupo {
+    font-size: 1.50rem !important;
+  }
+  .card-title {
+    font-size: 2.50rem !important;
+    line-height: 0.8 !important;
+  }
+  .card-text {
+    font-size: 1.25rem;
+    line-height: 1.0;
+  }
+  .modal-title {
+    font-size: 3rem !important;
+  }
+  .modal-body {
     font-size: 1.25rem !important;
   }
 }
