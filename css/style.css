@@ -175,6 +175,10 @@ header {
   color: #10140F !important;
 }
 
+.p-apoia > p {
+  margin: 0;
+}
+
 .text-apoia {
   padding-top: 30px;
 }
