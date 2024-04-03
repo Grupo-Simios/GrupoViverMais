@@ -255,3 +255,64 @@ header {
 .equipe-simios {
   background-color: #EBCCBA;
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #29336D;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: white;
+}
+.wp-block-group {  
+z-index: 10;
+}
+iframe{
+z-index: 0;
+}
+#html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #A24E2A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: white;
+}
+.wp-block-group {  
+z-index: 10;
+}
+iframe{
+z-index: 0;
+}
