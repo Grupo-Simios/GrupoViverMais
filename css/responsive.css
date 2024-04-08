@@ -95,19 +95,32 @@
     font-size: 1.25rem !important;
   }
 }
-
+.btnStatuto{
+  color: chocolate;
+  margin-left: -12px;
+  margin-bottom: 2px;
+}
 /* md */
 @media screen and (max-width: 767px) {
   .missao, .visao, .valores {
     width: auto;
     height: auto;
   }
+  #navTransparencia{
+    display:none!important;
+  }
 }
 
 /* lg */
 @media screen and (max-width: 991px) {
+  #navTransparencia{
+    display:none!important;
+  }
 }
 
 /* xl */
 @media screen and (max-width: 1199px) {
+  #navTransparencia{
+    display:none!important;
+  }
 }
